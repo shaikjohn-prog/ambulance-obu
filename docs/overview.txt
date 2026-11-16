@@ -1,0 +1,1 @@
+Ambulance OBU: broadcasts emergency alerts to nearby vehicles and RSUs.
