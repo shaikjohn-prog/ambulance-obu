@@ -30,7 +30,7 @@ void build_alert(struct alert_msg *msg)
 
 void print_alert(const struct alert_msg *msg)
 {
-    printf("ALERT: %s at (%.4f, %.4f) speed %d heading %d\n",
+    printf("ALERT: %s at (%.4f, %.4f) speed %d km/h heading %d deg\n",
            msg->vehicle_type, msg->latitude, msg->longitude,
            msg->speed, msg->heading);
 }
